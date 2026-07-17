@@ -1,0 +1,19 @@
+{
+  "note": "PLACEHOLDER — Verify against latest Pakistan Customs Tariff. HS codes vary; this is a simplified category-based approximation.",
+  "lastUpdated": "2024-07",
+  "salesTaxPercent": 17,
+  "categories": [
+    { "id": "electronics",        "label": "Electronics (phones, laptops, cameras)",  "dutyRate": 0.20 },
+    { "id": "clothing",           "label": "Clothing & Apparel",                        "dutyRate": 0.25 },
+    { "id": "footwear",           "label": "Footwear",                                  "dutyRate": 0.25 },
+    { "id": "cosmetics",          "label": "Cosmetics & Personal Care",                 "dutyRate": 0.20 },
+    { "id": "books",              "label": "Books & Printed Matter",                    "dutyRate": 0.00 },
+    { "id": "toys",               "label": "Toys & Games",                              "dutyRate": 0.20 },
+    { "id": "watches-jewelry",    "label": "Watches & Jewelry",                         "dutyRate": 0.30 },
+    { "id": "sports",             "label": "Sports Equipment",                          "dutyRate": 0.20 },
+    { "id": "food-supplements",   "label": "Food Supplements & Health Products",        "dutyRate": 0.25 },
+    { "id": "auto-parts",         "label": "Auto Parts & Accessories",                  "dutyRate": 0.25 },
+    { "id": "household",          "label": "Household Items & Kitchenware",             "dutyRate": 0.20 },
+    { "id": "other",              "label": "Other / General Merchandise",               "dutyRate": 0.20 }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "note": "PLACEHOLDER DATA — Verify against latest NEPRA/DISCO tariff notification before publishing. Rates in PKR per unit (kWh).",
+  "lastUpdated": "2024-07",
+  "residential": {
+    "protected": {
+      "note": "Protected consumers: usage ≤ 100 units/month OR lifeline (≤50 units)",
+      "slabs": [
+        { "min": 0,   "max": 50,  "rate": 3.95  },
+        { "min": 51,  "max": 100, "rate": 7.74  }
+      ]
+    },
+    "unprotected": {
+      "slabs": [
+        { "min": 0,   "max": 100,  "rate": 16.48 },
+        { "min": 101, "max": 200,  "rate": 20.59 },
+        { "min": 201, "max": 300,  "rate": 26.07 },
+        { "min": 301, "max": 400,  "rate": 31.65 },
+        { "min": 401, "max": 500,  "rate": 35.02 },
+        { "min": 501, "max": 600,  "rate": 38.00 },
+        { "min": 601, "max": 700,  "rate": 39.70 },
+        { "min": 701, "max": 999999, "rate": 43.94 }
+      ]
+    }
+  },
+  "commercial": {
+    "slabs": [
+      { "min": 0,   "max": 100,  "rate": 22.00 },
+      { "min": 101, "max": 999999, "rate": 38.50 }
+    ]
+  },
+  "surcharges": {
+    "fuelPriceAdjustment": 3.23,
+    "quarterlyAdjustment": 0.00,
+    "electricityDutyPercent": 0.015,
+    "neElectricityDutyPercent": 0.015,
+    "gstPercent": 0.18,
+    "tvLicenseFee": 35,
+    "meterRentResidential": 15,
+    "fixedChargePerKW": 0
+  }
+}

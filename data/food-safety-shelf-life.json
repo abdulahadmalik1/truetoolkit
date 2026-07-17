@@ -1,0 +1,65 @@
+{
+  "note": "Based on US FDA & UK NHS food safety guidelines. Not medical advice. When in doubt, throw it out.",
+  "categories": [
+    {
+      "id": "cooked-meat",
+      "label": "Cooked Meat (chicken, beef, lamb, fish)",
+      "fridge": { "days": 4, "tip": "Store in airtight container. Reheat to 74°C (165°F)." },
+      "freezer": { "days": 90, "tip": "Wrap tightly. Thaw in fridge, not countertop." }
+    },
+    {
+      "id": "cooked-rice-pasta",
+      "label": "Cooked Rice / Pasta",
+      "fridge": { "days": 5, "tip": "Cool quickly and refrigerate within 2 hours of cooking." },
+      "freezer": { "days": 60, "tip": "Freezes well. Reheat thoroughly." }
+    },
+    {
+      "id": "cooked-eggs",
+      "label": "Cooked Eggs / Omelette",
+      "fridge": { "days": 4, "tip": "Keep in covered container." },
+      "freezer": { "days": 60, "tip": "Scrambled eggs freeze better than fried." }
+    },
+    {
+      "id": "dairy-open",
+      "label": "Opened Dairy (milk, cream, yogurt)",
+      "fridge": { "days": 5, "tip": "Keep sealed. Check smell and appearance before use." },
+      "freezer": { "days": 90, "tip": "Texture may change after freezing." }
+    },
+    {
+      "id": "opened-jar-sauce",
+      "label": "Opened Jar / Sauce / Condiment",
+      "fridge": { "days": 7, "tip": "Check label for specific instructions." },
+      "freezer": { "days": 60, "tip": "Some sauces freeze well; check consistency." }
+    },
+    {
+      "id": "raw-meat",
+      "label": "Raw Meat / Poultry / Fish",
+      "fridge": { "days": 2, "tip": "Store on the bottom shelf. Do not wash raw chicken." },
+      "freezer": { "days": 270, "tip": "Best within 3-9 months. Label with date." }
+    },
+    {
+      "id": "soups-stews",
+      "label": "Soups & Stews",
+      "fridge": { "days": 4, "tip": "Cool quickly, store in shallow containers." },
+      "freezer": { "days": 90, "tip": "Freeze in portion sizes for convenience." }
+    },
+    {
+      "id": "dhal-curry",
+      "label": "Dhal / Curry / Sabzi",
+      "fridge": { "days": 4, "tip": "Reheat until steaming throughout." },
+      "freezer": { "days": 90, "tip": "Freeze well. Good up to 3 months." }
+    },
+    {
+      "id": "salad-cut-veg",
+      "label": "Cut Salad / Cut Vegetables",
+      "fridge": { "days": 3, "tip": "Keep in airtight container with a paper towel to absorb moisture." },
+      "freezer": { "days": 30, "tip": "Most salad greens don't freeze well." }
+    },
+    {
+      "id": "pizza-leftovers",
+      "label": "Pizza / Bread-based Leftovers",
+      "fridge": { "days": 4, "tip": "Reheat in oven or pan for best texture." },
+      "freezer": { "days": 60, "tip": "Freeze slices individually." }
+    }
+  ]
+}

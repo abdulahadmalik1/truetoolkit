@@ -1,0 +1,67 @@
+{
+  "note": "PLACEHOLDER — Verify against latest provincial excise/taxation notifications. Rates in PKR.",
+  "lastUpdated": "2024-07",
+  "provinces": {
+    "Punjab": {
+      "car": [
+        { "ccMin": 0,    "ccMax": 1000,  "ageMin": 0, "ageMax": 5,  "annualTax": 1500  },
+        { "ccMin": 0,    "ccMax": 1000,  "ageMin": 6, "ageMax": 999,"annualTax": 1000  },
+        { "ccMin": 1001, "ccMax": 1300,  "ageMin": 0, "ageMax": 5,  "annualTax": 3000  },
+        { "ccMin": 1001, "ccMax": 1300,  "ageMin": 6, "ageMax": 999,"annualTax": 2000  },
+        { "ccMin": 1301, "ccMax": 1600,  "ageMin": 0, "ageMax": 5,  "annualTax": 5000  },
+        { "ccMin": 1301, "ccMax": 1600,  "ageMin": 6, "ageMax": 999,"annualTax": 3500  },
+        { "ccMin": 1601, "ccMax": 1800,  "ageMin": 0, "ageMax": 5,  "annualTax": 8000  },
+        { "ccMin": 1601, "ccMax": 1800,  "ageMin": 6, "ageMax": 999,"annualTax": 6000  },
+        { "ccMin": 1801, "ccMax": 2000,  "ageMin": 0, "ageMax": 5,  "annualTax": 12000 },
+        { "ccMin": 1801, "ccMax": 2000,  "ageMin": 6, "ageMax": 999,"annualTax": 9000  },
+        { "ccMin": 2001, "ccMax": 2500,  "ageMin": 0, "ageMax": 5,  "annualTax": 18000 },
+        { "ccMin": 2001, "ccMax": 2500,  "ageMin": 6, "ageMax": 999,"annualTax": 14000 },
+        { "ccMin": 2501, "ccMax": 999999,"ageMin": 0, "ageMax": 999,"annualTax": 25000 }
+      ],
+      "motorcycle": [
+        { "ccMin": 0,   "ccMax": 100,  "annualTax": 500  },
+        { "ccMin": 101, "ccMax": 200,  "annualTax": 1000 },
+        { "ccMin": 201, "ccMax": 999999,"annualTax": 1500 }
+      ]
+    },
+    "Sindh": {
+      "car": [
+        { "ccMin": 0,    "ccMax": 1000,  "ageMin": 0, "ageMax": 999,"annualTax": 1800  },
+        { "ccMin": 1001, "ccMax": 1300,  "ageMin": 0, "ageMax": 999,"annualTax": 3500  },
+        { "ccMin": 1301, "ccMax": 1600,  "ageMin": 0, "ageMax": 999,"annualTax": 6000  },
+        { "ccMin": 1601, "ccMax": 2000,  "ageMin": 0, "ageMax": 999,"annualTax": 10000 },
+        { "ccMin": 2001, "ccMax": 999999,"ageMin": 0, "ageMax": 999,"annualTax": 20000 }
+      ],
+      "motorcycle": [
+        { "ccMin": 0,   "ccMax": 200,  "annualTax": 800  },
+        { "ccMin": 201, "ccMax": 999999,"annualTax": 1500 }
+      ]
+    },
+    "KPK": {
+      "car": [
+        { "ccMin": 0,    "ccMax": 1000,  "ageMin": 0, "ageMax": 999,"annualTax": 1200  },
+        { "ccMin": 1001, "ccMax": 1300,  "ageMin": 0, "ageMax": 999,"annualTax": 2500  },
+        { "ccMin": 1301, "ccMax": 1600,  "ageMin": 0, "ageMax": 999,"annualTax": 4500  },
+        { "ccMin": 1601, "ccMax": 2000,  "ageMin": 0, "ageMax": 999,"annualTax": 8000  },
+        { "ccMin": 2001, "ccMax": 999999,"ageMin": 0, "ageMax": 999,"annualTax": 15000 }
+      ],
+      "motorcycle": [
+        { "ccMin": 0,   "ccMax": 200,  "annualTax": 600  },
+        { "ccMin": 201, "ccMax": 999999,"annualTax": 1200 }
+      ]
+    },
+    "Balochistan": {
+      "car": [
+        { "ccMin": 0,    "ccMax": 1000,  "ageMin": 0, "ageMax": 999,"annualTax": 1000  },
+        { "ccMin": 1001, "ccMax": 1300,  "ageMin": 0, "ageMax": 999,"annualTax": 2000  },
+        { "ccMin": 1301, "ccMax": 1600,  "ageMin": 0, "ageMax": 999,"annualTax": 3500  },
+        { "ccMin": 1601, "ccMax": 2000,  "ageMin": 0, "ageMax": 999,"annualTax": 6000  },
+        { "ccMin": 2001, "ccMax": 999999,"ageMin": 0, "ageMax": 999,"annualTax": 12000 }
+      ],
+      "motorcycle": [
+        { "ccMin": 0,   "ccMax": 200,  "annualTax": 500  },
+        { "ccMin": 201, "ccMax": 999999,"annualTax": 1000 }
+      ]
+    }
+  }
+}

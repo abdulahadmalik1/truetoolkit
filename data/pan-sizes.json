@@ -1,0 +1,47 @@
+{
+  "panSizes": [
+    { "id": "round-6",   "label": "Round 6\" (15cm)",      "shape": "round",     "areaSqIn": 28.27  },
+    { "id": "round-8",   "label": "Round 8\" (20cm)",      "shape": "round",     "areaSqIn": 50.27  },
+    { "id": "round-9",   "label": "Round 9\" (23cm)",      "shape": "round",     "areaSqIn": 63.62  },
+    { "id": "round-10",  "label": "Round 10\" (25cm)",     "shape": "round",     "areaSqIn": 78.54  },
+    { "id": "square-8",  "label": "Square 8\" (20×20cm)",  "shape": "square",    "areaSqIn": 64.00  },
+    { "id": "square-9",  "label": "Square 9\" (23×23cm)",  "shape": "square",    "areaSqIn": 81.00  },
+    { "id": "rect-9x13", "label": "Rectangle 9×13\"",     "shape": "rectangle", "areaSqIn": 117.00 },
+    { "id": "rect-9x11", "label": "Rectangle 9×11\"",     "shape": "rectangle", "areaSqIn": 99.00  },
+    { "id": "loaf",      "label": "Loaf 9×5\" (23×13cm)", "shape": "loaf",      "areaSqIn": 45.00  },
+    { "id": "muffin-12", "label": "Muffin Tin 12-cup",    "shape": "muffin",    "areaSqIn": 48.00  },
+    { "id": "bundt",     "label": "Bundt/Ring Pan 10\"",   "shape": "bundt",     "areaSqIn": 60.00  }
+  ],
+  "timeAdjustments": [
+    {
+      "scaleFactor": { "min": 0,   "max": 0.5 },
+      "tempAdjustCelsius": 10,
+      "timeMultiplier": 0.70,
+      "note": "Much smaller pan — increase temp slightly, reduce time significantly. Watch closely."
+    },
+    {
+      "scaleFactor": { "min": 0.5, "max": 0.8 },
+      "tempAdjustCelsius": 0,
+      "timeMultiplier": 0.85,
+      "note": "Slightly smaller pan — same temp, reduce time by ~15%. Start checking early."
+    },
+    {
+      "scaleFactor": { "min": 0.8, "max": 1.2 },
+      "tempAdjustCelsius": 0,
+      "timeMultiplier": 1.00,
+      "note": "Similar size — no adjustment needed."
+    },
+    {
+      "scaleFactor": { "min": 1.2, "max": 1.5 },
+      "tempAdjustCelsius": -10,
+      "timeMultiplier": 1.15,
+      "note": "Slightly larger/shallower pan — reduce temp ~10°C, increase time ~15%."
+    },
+    {
+      "scaleFactor": { "min": 1.5, "max": 999 },
+      "tempAdjustCelsius": -15,
+      "timeMultiplier": 1.30,
+      "note": "Much larger/shallower pan — reduce temp ~15°C, increase time ~30%. Check doneness visually."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "note": "Pakistan labor law overtime rates. Rules vary by sector/province. Consult HR or a labor lawyer for specific cases.",
+  "bases": [
+    {
+      "id": "factories-act",
+      "label": "Factories Act 1934 (Manufacturing)",
+      "standardWeeklyHours": 48,
+      "multiplier": 2.0,
+      "note": "2× hourly rate for overtime. Standard: 8 hrs/day, 48 hrs/week."
+    },
+    {
+      "id": "shops-establishments",
+      "label": "Shops & Establishments Ordinance",
+      "standardWeeklyHours": 48,
+      "multiplier": 2.0,
+      "note": "Generally 2× for overtime hours."
+    },
+    {
+      "id": "mines-act",
+      "label": "Mines Act 1923",
+      "standardWeeklyHours": 48,
+      "multiplier": 2.0,
+      "note": "2× for overtime. Underground mines have stricter limits."
+    },
+    {
+      "id": "generic",
+      "label": "Generic / Other (user-defined)",
+      "standardWeeklyHours": 40,
+      "multiplier": 1.5,
+      "note": "Default: 1.5× overtime. Adjust multiplier as per your employment contract."
+    }
+  ]
+}

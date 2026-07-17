@@ -1,0 +1,95 @@
+# TrueToolkit
+
+TrueToolkit is a collection of 63 free, no-signup, instant client-side tools and calculators for freelancers, remote workers, students, and everyday life. All tools execute entirely within the browser.
+
+## Categories
+- [Money & Freelance](https://truetoolkit.com/category/money-freelance)
+- [Time & Remote Work](https://truetoolkit.com/category/time-remote-work)
+- [Everyday Practical](https://truetoolkit.com/category/everyday-practical)
+- [Content & Social](https://truetoolkit.com/category/content-social)
+- [Interactive Fun](https://truetoolkit.com/category/interactive-fun)
+- [Business & Operations](https://truetoolkit.com/category/business-operations)
+- [Developer Tools](https://truetoolkit.com/category/developer-tools)
+- [Life & Existential Math](https://truetoolkit.com/category/life-existential-math)
+
+## Tools
+
+### Money & Freelance
+- [True Hourly Rate Calculator](https://truetoolkit.com/tools/true-hourly-rate): See what you actually earn once taxes, gaps, and downtime are counted.
+- [Subscription Creep Tracker](https://truetoolkit.com/tools/subscription-tracker): Add up every recurring charge and catch the ones you forgot about.
+- [Meeting Cost Calculator](https://truetoolkit.com/tools/meeting-cost): Turn attendee salaries and meeting length into a real dollar cost.
+- [Raise / Promotion Real-Impact Calculator](https://truetoolkit.com/tools/raise-calculator): Check what a raise is really worth after tax brackets and inflation.
+- [Debt Payoff Visualizer](https://truetoolkit.com/tools/debt-payoff): Compare snowball vs. avalanche and see your real payoff date.
+- [Cost-Per-Use Decision Calculator](https://truetoolkit.com/tools/cost-per-use): Find out if that purchase is actually worth the price tag.
+- [Commute Cost & Time Reality Check](https://truetoolkit.com/tools/commute-cost): See what your commute really costs in time, fuel, and wear.
+- [Rent vs Buy Break-Even Calculator](https://truetoolkit.com/tools/rent-vs-buy): Find the year renting starts costing more than buying.
+- [Freelance Late-Payment Interest Calculator](https://truetoolkit.com/tools/late-payment-interest): Calculate interest owed on a client's overdue invoice.
+- [Used-Item Fair Resale Price Estimator](https://truetoolkit.com/tools/resale-price): Get a fair resale price based on age and condition.
+- [Freelance Payout Leakage Calculator](https://truetoolkit.com/tools/freelance-payout-leakage): See exactly how much of your invoice disappears to platform cuts, withdrawal fees, and bad exchange rates before it lands in your account.
+- [Invoice Cash-Runway Calculator](https://truetoolkit.com/tools/invoice-cash-runway): See how many days of runway you actually have based on which pending invoices are likely to pay on time.
+- [Word-Count Auto-Invoicer](https://truetoolkit.com/tools/freelance-word-invoicer): Paste text or upload a file to instantly count words deterministically and generate a ready-to-print invoice.
+- [Scope-Creep Ledger](https://truetoolkit.com/tools/scope-creep-ledger): Log your actual hours against the signed SOW and instantly see the exact mathematical dollar value of your client's scope creep.
+
+### Time & Remote Work
+- [Fair Meeting Time Rotator](https://truetoolkit.com/tools/meeting-time-rotator): Rotate awkward meeting times fairly across every time zone.
+- [Async Reply-Time Expectation Generator](https://truetoolkit.com/tools/reply-time-generator): Set clear response-time norms for your remote team.
+- [Screen Time Cost Converter](https://truetoolkit.com/tools/screen-time-cost): Turn your screen time into hours, days, and dollars lost.
+- [Focus Session Value Ticker](https://truetoolkit.com/tools/focus-session-ticker): Watch the dollar value of your focus time tick up live.
+- [Life-in-Weeks Visualizer](https://truetoolkit.com/tools/life-in-weeks): See your whole life mapped out, one box per week.
+- [Notification Interruption Cost Calculator](https://truetoolkit.com/tools/notification-cost): Turn your daily pings and Slack messages into the real hours of focus they're quietly costing you.
+- [Unused Leave Forfeiture Calculator](https://truetoolkit.com/tools/leave-forfeiture): See the cash value of the PTO days you're about to lose to 'use it or lose it'.
+- [DST Drift Watchdog](https://truetoolkit.com/tools/dst-drift-watchdog): Find out exactly which weeks your recurring meetings will silently shift because of different DST transition dates.
+
+### Everyday Practical
+- [Itemized Bill Splitter](https://truetoolkit.com/tools/bill-splitter): Split a shared bill fairly, item by item, not just evenly.
+- [Paint & Wallpaper Estimator](https://truetoolkit.com/tools/paint-estimator): Get exact paint or wallpaper quantities for any room.
+- [Recipe Scaler with Pan-Size Adjustment](https://truetoolkit.com/tools/recipe-scaler): Scale any recipe up or down for a different pan size.
+- [Leftover / Fridge Food-Safety Countdown](https://truetoolkit.com/tools/food-safety-countdown): Track how long your leftovers are still safe to eat.
+- [Luggage Weight Balancer](https://truetoolkit.com/tools/luggage-balancer): Balance weight across bags before your airline charges you.
+- [Group Gift Contribution Splitter](https://truetoolkit.com/tools/gift-splitter): Split a group gift fairly based on who can pay what.
+- [Warranty & Return-Window Tracker](https://truetoolkit.com/tools/warranty-tracker): Track warranty and return deadlines before they quietly expire.
+- [Flight Layover Buffer Checker](https://truetoolkit.com/tools/layover-checker): Check if your layover leaves enough buffer to connect safely.
+- [Tuition Fee Refund Proration Calculator](https://truetoolkit.com/tools/fee-refund): Work out your prorated refund after withdrawing.
+- [Appliance Electricity Cost & Comparison Calculator](https://truetoolkit.com/tools/appliance-calculator): Compare the electricity consumption and running cost of any two appliances.
+- [Grocery Unit-Price Comparator](https://truetoolkit.com/tools/grocery-unit-comparator): Compare true cost per 100g/ml across pack sizes so 'bigger = cheaper' stops fooling you.
+- [Moving Day True-Cost Estimator](https://truetoolkit.com/tools/moving-cost-estimator): Add up every hidden relocation cost people forget until the bill arrives.
+- [Appliance Upgrade Payback Calculator](https://truetoolkit.com/tools/appliance-upgrade-payback): Find out exactly how many months until a pricier, efficient appliance pays for itself.
+- [Notice-Period Deadline Extractor](https://truetoolkit.com/tools/notice-period-extractor): Calculate the exact drop-dead date you must send your cancellation by based on your contract's fine print.
+- [Multi-Prescription Refill Sync](https://truetoolkit.com/tools/prescription-refill-sync): Stop making five separate pharmacy trips. Find the single best day to request all refills together.
+- [Warranty Vault & Expiry Math](https://truetoolkit.com/tools/warranty-vault): Calculate exactly when your warranty expires and keep the receipt attached securely in your browser.
+- [Deposit Dispute Shield](https://truetoolkit.com/tools/deposit-dispute-shield): Generate an irrefutable report with cryptographic hashes to prove rental condition photos haven't been tampered with.
+
+### Content & Social
+- [Multi-Platform Post Length Previewer](https://truetoolkit.com/tools/post-length-preview): Preview how your post looks and where it gets cut off.
+- [Alt-Text Quality Checker](https://truetoolkit.com/tools/alt-text-checker): Check if your image alt text actually helps people.
+- [Hashtag CamelCase Formatter](https://truetoolkit.com/tools/hashtag-formatter): Format hashtags in CamelCase so screen readers read them right.
+- [Password Weakness Explainer](https://truetoolkit.com/tools/password-checker): See exactly why a password is weak, not just a score.
+- [Sponsored Post Rate Fairness Calculator](https://truetoolkit.com/tools/sponsored-post-rate): Get a fair ballpark rate from real engagement, not just follower count.
+- [Recurring-Cost Reconciler](https://truetoolkit.com/tools/recurring-cost-reconciler): Tracks infinite recurring shared costs with running balances to mathematically flag who is riding on the group's dime.
+- [True-Overlap Trip Scheduler](https://truetoolkit.com/tools/true-overlap-trip): Everyone inputs availability in local time; we calculate the exact overlapping window flawlessly handling DST offsets.
+- [Blind Duplicate-Proof Gift Registry](https://truetoolkit.com/tools/duplicate-gift-registry): A P2P registry where claiming a gift mathematically erases it from the link you pass to the next person.
+- [Cooling-Off Send Delay](https://truetoolkit.com/tools/cooling-off-delay): Lock your angry text in a vault until a countdown expires, physically preventing you from sending impulsively.
+- [Cross-Platform Mention Consolidator](https://truetoolkit.com/tools/mention-consolidator): Deterministically generates advanced boolean queries to hunt untagged mentions without paying for a social listening API.
+
+### Interactive Fun
+- [Interactive Birthday Wisher & Card Generator](https://truetoolkit.com/tools/birthday-wisher): Create and share a personalized birthday card in seconds.
+
+### Business & Operations
+- [Wedding Vendor Cascade Timeline](https://truetoolkit.com/tools/wedding-vendor-timeline): Lock an anchor event and instantly cascade exact arrival and setup times to every vendor when delays happen.
+- [Cottage Food Label Generator](https://truetoolkit.com/tools/cottage-food-label): Generate an FDA-compliant nutrition panel using deterministic USDA data math—no AI guesses.
+- [Small Farm Cost-Per-Yield Ledger](https://truetoolkit.com/tools/farm-yield-ledger): Calculate your exact breakeven cost-per-unit-yield to generate a lender-ready financial snapshot.
+- [Server Downtime SLA Refund Calculator](https://truetoolkit.com/tools/sla-refund-calculator): Input exact downtime to see mathematically how much Service Credit AWS or GCP owes you.
+- [App Store Fee Leakage Modeler](https://truetoolkit.com/tools/app-store-fee-modeler): Calculate exact true margin after Apple deducts local VAT/GST and takes their 15% or 30% cut.
+- [Cloud Egress Cost Simulator](https://truetoolkit.com/tools/cloud-egress-simulator): Compute exact mathematical egress penalties on AWS vs GCP vs Cloudflare based on tiered pricing.
+
+### Developer Tools
+- [Open-Source License Conflict Checker](https://truetoolkit.com/tools/license-conflict-checker): Run a deterministic matrix check against copyleft licenses like GPL and AGPL to prevent compliance disasters.
+- [Strict WCAG Contrast Math](https://truetoolkit.com/tools/strict-contrast-checker): Calculate the exact WCAG 2.1 Relative Luminance ratio to ensure strict accessibility compliance.
+
+### Life & Existential Math
+- [Remaining Parent Visits Calculator](https://truetoolkit.com/tools/parent-visits-calculator): A stark mathematical reality check of exactly how many physical visits you have left based on actuarial life expectancy.
+- [True Hourly Wage Commute Depreciator](https://truetoolkit.com/tools/true-hourly-wage): Calculate your actual hourly wage after backing out unpaid commute hours and IRS mileage vehicle depreciation.
+- [The 'One More Year' Syndrome Calculator](https://truetoolkit.com/tools/one-more-year-calculator): See exactly how much your safe withdrawal rate drops if you work one more year, turning anxiety into a hard number.
+- [Hobby Cost-Per-Hour Rationalizer](https://truetoolkit.com/tools/hobby-cost-rationalizer): Amortize the cost of expensive gear against the hours of joy you get vs the cost of a movie ticket.
+- [Personal Inflation Tracker](https://truetoolkit.com/tools/personal-inflation-tracker): Input the exact items you buy to see your true personal inflation rate, bypassing generic government CPI.
+

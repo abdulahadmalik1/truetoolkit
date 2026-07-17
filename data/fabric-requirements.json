@@ -1,0 +1,93 @@
+{
+  "note": "Standard tailoring rules of thumb. A tailor's exact requirement can vary by design and print-matching.",
+  "fabricWidths": [44, 58, 72],
+  "garments": [
+    {
+      "id": "shalwar-kameez",
+      "label": "Shalwar Kameez (Full Set)",
+      "widthRequirements": {
+        "44": { "heightBrackets": [
+          { "maxHeightCm": 160, "yards": 5.5 },
+          { "maxHeightCm": 175, "yards": 6.0 },
+          { "maxHeightCm": 999, "yards": 6.5 }
+        ]},
+        "58": { "heightBrackets": [
+          { "maxHeightCm": 160, "yards": 4.5 },
+          { "maxHeightCm": 175, "yards": 5.0 },
+          { "maxHeightCm": 999, "yards": 5.5 }
+        ]},
+        "72": { "heightBrackets": [
+          { "maxHeightCm": 160, "yards": 3.5 },
+          { "maxHeightCm": 175, "yards": 4.0 },
+          { "maxHeightCm": 999, "yards": 4.5 }
+        ]}
+      }
+    },
+    {
+      "id": "kurta",
+      "label": "Kurta (Top only)",
+      "widthRequirements": {
+        "44": { "heightBrackets": [
+          { "maxHeightCm": 160, "yards": 2.5 },
+          { "maxHeightCm": 175, "yards": 3.0 },
+          { "maxHeightCm": 999, "yards": 3.5 }
+        ]},
+        "58": { "heightBrackets": [
+          { "maxHeightCm": 160, "yards": 2.0 },
+          { "maxHeightCm": 175, "yards": 2.5 },
+          { "maxHeightCm": 999, "yards": 3.0 }
+        ]},
+        "72": { "heightBrackets": [
+          { "maxHeightCm": 160, "yards": 1.75 },
+          { "maxHeightCm": 175, "yards": 2.0 },
+          { "maxHeightCm": 999, "yards": 2.5 }
+        ]}
+      }
+    },
+    {
+      "id": "2-piece-suit",
+      "label": "2-Piece Suit (Trousers + Jacket)",
+      "widthRequirements": {
+        "44": { "heightBrackets": [
+          { "maxHeightCm": 170, "yards": 6.0 },
+          { "maxHeightCm": 999, "yards": 6.5 }
+        ]},
+        "58": { "heightBrackets": [
+          { "maxHeightCm": 170, "yards": 4.5 },
+          { "maxHeightCm": 999, "yards": 5.0 }
+        ]},
+        "72": { "heightBrackets": [
+          { "maxHeightCm": 170, "yards": 3.5 },
+          { "maxHeightCm": 999, "yards": 4.0 }
+        ]}
+      }
+    },
+    {
+      "id": "3-piece-suit",
+      "label": "3-Piece Suit (Trousers + Jacket + Waistcoat)",
+      "widthRequirements": {
+        "44": { "heightBrackets": [
+          { "maxHeightCm": 170, "yards": 7.5 },
+          { "maxHeightCm": 999, "yards": 8.0 }
+        ]},
+        "58": { "heightBrackets": [
+          { "maxHeightCm": 170, "yards": 6.0 },
+          { "maxHeightCm": 999, "yards": 6.5 }
+        ]},
+        "72": { "heightBrackets": [
+          { "maxHeightCm": 170, "yards": 4.5 },
+          { "maxHeightCm": 999, "yards": 5.0 }
+        ]}
+      }
+    },
+    {
+      "id": "dupatta",
+      "label": "Dupatta / Chunri",
+      "widthRequirements": {
+        "44": { "heightBrackets": [{ "maxHeightCm": 999, "yards": 2.5 }] },
+        "58": { "heightBrackets": [{ "maxHeightCm": 999, "yards": 2.5 }] },
+        "72": { "heightBrackets": [{ "maxHeightCm": 999, "yards": 2.0 }] }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": "phones-laptops",
+      "label": "Phones & Laptops",
+      "annualRate": 0.35,
+      "floorValue": 0.05,
+      "conditionMultipliers": {
+        "like-new": 0.95,
+        "good": 0.80,
+        "fair": 0.60,
+        "poor": 0.40
+      }
+    },
+    {
+      "id": "other-electronics",
+      "label": "Other Electronics (TV, Camera, etc.)",
+      "annualRate": 0.25,
+      "floorValue": 0.05,
+      "conditionMultipliers": {
+        "like-new": 0.92,
+        "good": 0.75,
+        "fair": 0.55,
+        "poor": 0.35
+      }
+    },
+    {
+      "id": "appliances",
+      "label": "Home Appliances (Fridge, AC, Washing Machine)",
+      "annualRate": 0.15,
+      "floorValue": 0.10,
+      "conditionMultipliers": {
+        "like-new": 0.90,
+        "good": 0.75,
+        "fair": 0.60,
+        "poor": 0.40
+      }
+    },
+    {
+      "id": "furniture",
+      "label": "Furniture",
+      "annualRate": 0.10,
+      "floorValue": 0.15,
+      "conditionMultipliers": {
+        "like-new": 0.88,
+        "good": 0.72,
+        "fair": 0.55,
+        "poor": 0.35
+      }
+    },
+    {
+      "id": "vehicles",
+      "label": "Vehicles (Car, Motorcycle)",
+      "annualRate": 0.20,
+      "floorValue": 0.10,
+      "conditionMultipliers": {
+        "like-new": 0.92,
+        "good": 0.78,
+        "fair": 0.60,
+        "poor": 0.42
+      }
+    }
+  ]
+}
