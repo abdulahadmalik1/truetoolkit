@@ -21,7 +21,6 @@ export const metadata: Metadata = {
   },
 };
 
-import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 
 export default function RootLayout({
@@ -48,7 +47,6 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen antialiased">
         {children}
-        <Analytics />
       </body>
     </html>
   );
