@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-import Script from "next/script";
+import { InteractionAnalytics } from "@/components/InteractionAnalytics";
 
 export default function RootLayout({
   children,
@@ -34,19 +34,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen antialiased">
         {children}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-3FPW2HZZYD"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-3FPW2HZZYD');
-          `}
-        </Script>
+        <InteractionAnalytics />
       </body>
     </html>
   );
