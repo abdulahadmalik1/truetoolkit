@@ -127,7 +127,7 @@ function SliderInput({
           }%, #1e2540 ${((value - min) / (max - min)) * 100}%, #1e2540 100%)`,
         }}
       />
-      <div className="flex justify-between text-xs text-slate-400 mt-1">
+      <div className="flex justify-between text-xs text-slate-500 mt-1">
         <span>{min}</span>
         <span>{max}</span>
       </div>
@@ -155,7 +155,7 @@ function ResultRow({
       <div>
         <span className="text-sm text-slate-600">{label}</span>
         {subtext && (
-          <p className="text-xs text-slate-400 mt-0.5">{subtext}</p>
+          <p className="text-xs text-slate-500 mt-0.5">{subtext}</p>
         )}
       </div>
       <span
@@ -303,7 +303,7 @@ export default function TrueHourlyRateCalculator() {
                     className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all border ${
                       currency === c.code
                         ? "bg-brand-600 border-brand-500 text-slate-900 shadow-lg shadow-brand-500/20"
-                        : "bg-slate-100 border-slate-300 text-slate-600 hover:border-slate-400"
+                        : "bg-slate-100 border-slate-300 text-slate-600 hover:border-slate-500"
                     }`}
                   >
                     {c.symbol} {c.code}
@@ -513,7 +513,7 @@ export default function TrueHourlyRateCalculator() {
                 <div className="px-4 pb-5">
                   <button
                     onClick={handleCopy}
-                    className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-sm font-medium text-slate-700 hover:text-slate-900 transition-all border border-slate-300 hover:border-slate-400"
+                    className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-sm font-medium text-slate-700 hover:text-slate-900 transition-all border border-slate-300 hover:border-slate-500"
                   >
                     {copyDone ? "✅ Copied!" : "📋 Copy result as text"}
                   </button>

@@ -109,7 +109,7 @@ export default function AltTextChecker() {
               <div key={ex.label}>
                 <div className="flex items-center gap-2 mb-0.5">
                   <span className="text-xs font-semibold text-slate-600">{ex.label}</span>
-                  <span className="text-xs text-slate-400">— {ex.reason}</span>
+                  <span className="text-xs text-slate-500">— {ex.reason}</span>
                 </div>
                 <code className="text-xs bg-slate-100 border border-slate-300 rounded px-2 py-1 text-slate-700 block">{ex.text}</code>
               </div>

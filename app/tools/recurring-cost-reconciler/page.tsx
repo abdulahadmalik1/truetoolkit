@@ -123,7 +123,7 @@ export default function RecurringCostReconciler() {
                   <span key={m} className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-sm font-semibold text-slate-700">
                     {m}
                     {members.length > 1 && (
-                      <button onClick={() => removeMember(m)} className="text-slate-400 hover:text-red-500 ml-1 font-bold">✕</button>
+                      <button onClick={() => removeMember(m)} className="text-slate-500 hover:text-red-500 ml-1 font-bold">✕</button>
                     )}
                   </span>
                 ))}
@@ -163,7 +163,7 @@ export default function RecurringCostReconciler() {
                     <FieldLabel htmlFor={`a-${log.id}`}>Amount ($)</FieldLabel>
                     <NumInput id={`a-${log.id}`} value={log.amount} onChange={(v) => updateLog(log.id, 'amount', v)} min={0} step={0.01} />
                   </div>
-                  <button onClick={() => removeLog(log.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-400 hover:text-red-500 rounded-xl transition-colors">
+                  <button onClick={() => removeLog(log.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-500 hover:text-red-500 rounded-xl transition-colors">
                     ✕
                   </button>
                 </div>
@@ -186,7 +186,7 @@ export default function RecurringCostReconciler() {
             </div>
             
             <div className="px-4 py-4 space-y-3 bg-white rounded-b-2xl">
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Member Balances</h4>
+              <h4 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Member Balances</h4>
               
               {math?.balances.map(b => (
                 <div key={b.member} className="flex justify-between items-center p-3 rounded-xl border border-slate-100 bg-slate-50">

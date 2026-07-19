@@ -115,7 +115,7 @@ export default function StrictContrastChecker() {
             
             <div className="px-4 py-6 bg-white rounded-b-2xl space-y-5">
               <div>
-                <h4 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-3">AA Level (Standard)</h4>
+                <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3">AA Level (Standard)</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center bg-slate-50 p-2.5 rounded-lg border border-slate-200">
                     <span className="text-sm font-semibold text-slate-700">Normal Text (4.5:1)</span>
@@ -129,7 +129,7 @@ export default function StrictContrastChecker() {
               </div>
 
               <div>
-                <h4 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-3">AAA Level (Strict)</h4>
+                <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3">AAA Level (Strict)</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center bg-slate-50 p-2.5 rounded-lg border border-slate-200">
                     <span className="text-sm font-semibold text-slate-700">Normal Text (7.0:1)</span>

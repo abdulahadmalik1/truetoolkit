@@ -87,7 +87,7 @@ export default function ParentVisitsCalculator() {
                   <div key={i} className="w-3 h-3 rounded-full bg-slate-800 animate-pulse" style={{ animationDelay: `${(i % 10) * 0.1}s` }}></div>
                 ))}
                 {math.totalVisitsLeft > 500 && (
-                  <div className="text-sm font-bold text-slate-400 mt-1">+ {math.totalVisitsLeft - 500} more</div>
+                  <div className="text-sm font-bold text-slate-500 mt-1">+ {math.totalVisitsLeft - 500} more</div>
                 )}
               </div>
             </Card>

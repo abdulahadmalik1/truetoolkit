@@ -76,7 +76,7 @@ export default function WarrantyTracker() {
                   <div>
                     <label className="text-xs text-slate-500 block mb-1">Return window (days)</label>
                     <NumInput id={`r-${item.id}`} value={item.returnDays} onChange={(v) => update(item.id, "returnDays", v)} min={0} max={365} />
-                    <p className={`text-xs mt-1 ${returnCritical ? "text-red-400 font-bold" : returnExpired ? "text-slate-400" : "text-slate-600"}`}>
+                    <p className={`text-xs mt-1 ${returnCritical ? "text-red-400 font-bold" : returnExpired ? "text-slate-500" : "text-slate-600"}`}>
                       {returnExpired ? "Window closed" : returnCritical ? `⚠️ ${daysToReturn}d left!` : `${daysToReturn}d left`}
                     </p>
                   </div>

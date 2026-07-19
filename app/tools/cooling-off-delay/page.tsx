@@ -61,7 +61,7 @@ export default function CoolingOffDelay() {
               <p className="text-slate-500 mb-8">Take a walk. Drink some water. You cannot access your message until the timer expires.</p>
               
               <div className="bg-slate-900 rounded-2xl p-8 inline-block shadow-2xl">
-                <p className="text-slate-400 font-bold uppercase tracking-widest text-sm mb-2">Time Remaining</p>
+                <p className="text-slate-500 font-bold uppercase tracking-widest text-sm mb-2">Time Remaining</p>
                 <p className="text-6xl font-black text-white font-mono tracking-tight tabular-nums">
                   {formatTime(timeLeftMs)}
                 </p>

@@ -108,11 +108,11 @@ export default function AppStoreFeeModeler() {
         <div className="sticky top-24 space-y-4">
           <ResultCard gradient>
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 px-6 py-8 text-center rounded-t-2xl">
-              <p className="text-slate-400 text-sm font-medium mb-1">Your True Take-Home</p>
+              <p className="text-slate-500 text-sm font-medium mb-1">Your True Take-Home</p>
               <p className="text-white text-5xl font-black tabular-nums tracking-tight">
                 ${math.developerTake.toFixed(2)}
               </p>
-              <p className="text-slate-400 text-sm mt-2 font-semibold">
+              <p className="text-slate-500 text-sm mt-2 font-semibold">
                 {math.effectiveTakeRate.toFixed(1)}% of the $ {price.toFixed(2)} list price
               </p>
             </div>

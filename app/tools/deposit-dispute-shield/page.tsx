@@ -86,7 +86,7 @@ export default function DepositDisputeShield() {
             </div>
           </div>
         ) : (
-          <div className="flex-1 flex flex-col items-center justify-center text-slate-400 py-12 text-center">
+          <div className="flex-1 flex flex-col items-center justify-center text-slate-500 py-12 text-center">
             <span className="text-4xl mb-2">📸</span>
             <p className="text-sm">No photo uploaded.</p>
           </div>

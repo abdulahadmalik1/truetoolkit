@@ -77,7 +77,7 @@ export default function DuplicateGiftRegistry() {
         <div className="max-w-2xl mx-auto space-y-6">
           <Card>
             <div className="text-center mb-8 border-b border-slate-200 pb-6">
-              <p className="text-sm uppercase font-bold text-slate-400 tracking-wider mb-1">You are viewing</p>
+              <p className="text-sm uppercase font-bold text-slate-500 tracking-wider mb-1">You are viewing</p>
               <h2 className="text-3xl font-black">{registryName}</h2>
               <p className="text-slate-600 mt-2">Pick a gift to claim. It will be permanently removed from the list for the next person.</p>
             </div>
@@ -98,7 +98,7 @@ export default function DuplicateGiftRegistry() {
             ) : (
               <div className="space-y-3">
                 {items.length === 0 ? (
-                  <div className="text-center py-12 text-slate-400 font-bold text-xl">
+                  <div className="text-center py-12 text-slate-500 font-bold text-xl">
                     Wow, everything has been claimed!
                   </div>
                 ) : (
@@ -121,7 +121,7 @@ export default function DuplicateGiftRegistry() {
           </Card>
           
           <div className="text-center">
-            <button onClick={resetToCreator} className="text-slate-400 text-sm hover:underline">Create my own registry</button>
+            <button onClick={resetToCreator} className="text-slate-500 text-sm hover:underline">Create my own registry</button>
           </div>
         </div>
       </ToolLayout>
@@ -155,7 +155,7 @@ export default function DuplicateGiftRegistry() {
               {items.map((item, idx) => (
                 <div key={item.id} className="p-3 bg-slate-50 border border-slate-200 rounded-xl relative">
                   {items.length > 1 && (
-                    <button onClick={() => removeItem(item.id)} className="absolute top-3 right-3 text-slate-400 hover:text-red-500 font-bold px-2">✕</button>
+                    <button onClick={() => removeItem(item.id)} className="absolute top-3 right-3 text-slate-500 hover:text-red-500 font-bold px-2">✕</button>
                   )}
                   <div className="grid gap-3 mr-8">
                     <div>
@@ -189,7 +189,7 @@ export default function DuplicateGiftRegistry() {
               
               {shareLink && (
                 <div className="pt-4 border-t border-slate-100">
-                  <p className="text-xs font-bold text-slate-400 uppercase mb-2">Your Secret Link</p>
+                  <p className="text-xs font-bold text-slate-500 uppercase mb-2">Your Secret Link</p>
                   <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 mb-3 break-all text-left">
                     <p className="text-xs font-mono text-slate-600 h-16 overflow-y-auto">{shareLink}</p>
                   </div>

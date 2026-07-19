@@ -68,7 +68,7 @@ export default function PersonalInflationTracker() {
               {items.map((item, idx) => (
                 <div key={item.id} className="p-4 bg-slate-50 border border-slate-200 rounded-xl relative">
                   {items.length > 1 && (
-                    <button onClick={() => removeItem(item.id)} className="absolute top-4 right-4 text-slate-400 hover:text-red-500 font-bold px-2">✕</button>
+                    <button onClick={() => removeItem(item.id)} className="absolute top-4 right-4 text-slate-500 hover:text-red-500 font-bold px-2">✕</button>
                   )}
                   
                   <div className="mb-4 pr-8">

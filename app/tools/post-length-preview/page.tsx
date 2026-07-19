@@ -34,7 +34,7 @@ export default function PostLengthPreview() {
           />
           <div className="flex justify-between mt-2 text-xs text-slate-500">
             <span>{chars.toLocaleString()} characters · {words.toLocaleString()} words</span>
-            <button onClick={() => setText("")} className="text-slate-400 hover:text-red-400 transition-colors">Clear</button>
+            <button onClick={() => setText("")} className="text-slate-500 hover:text-red-400 transition-colors">Clear</button>
           </div>
         </Card>
 

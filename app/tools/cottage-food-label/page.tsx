@@ -125,7 +125,7 @@ export default function CottageFoodLabel() {
             <div className="space-y-3">
               {ingredients.map((item, idx) => (
                 <div key={item.id} className="flex gap-3 items-end p-3 bg-slate-50 border border-slate-200 rounded-xl">
-                  <div className="w-10 text-center font-mono text-slate-400 font-bold mb-2">#{idx+1}</div>
+                  <div className="w-10 text-center font-mono text-slate-500 font-bold mb-2">#{idx+1}</div>
                   <div className="flex-1">
                     <FieldLabel htmlFor={`ing-${item.id}`}>Ingredient</FieldLabel>
                     <Select id={`ing-${item.id}`} value={item.dbKey} onChange={(v) => updateItem(item.id, 'dbKey', v)} options={DB_OPTIONS} />
@@ -135,7 +135,7 @@ export default function CottageFoodLabel() {
                     <NumInput id={`g-${item.id}`} value={item.grams} onChange={(v) => updateItem(item.id, 'grams', v)} min={0} suffix="g" />
                   </div>
                   {ingredients.length > 1 && (
-                    <button onClick={() => removeItem(item.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-400 hover:text-red-500 hover:border-red-200 rounded-xl transition-colors">
+                    <button onClick={() => removeItem(item.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-500 hover:text-red-500 hover:border-red-200 rounded-xl transition-colors">
                       ✕
                     </button>
                   )}

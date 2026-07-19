@@ -109,7 +109,7 @@ export default function TrueOverlapTrip() {
               {users.map((u, idx) => (
                 <div key={u.id} className="p-4 bg-slate-50 border border-slate-200 rounded-xl relative">
                   {users.length > 1 && (
-                    <button onClick={() => removeUser(u.id)} className="absolute top-3 right-3 text-slate-400 hover:text-red-500 font-bold px-2">✕</button>
+                    <button onClick={() => removeUser(u.id)} className="absolute top-3 right-3 text-slate-500 hover:text-red-500 font-bold px-2">✕</button>
                   )}
                   <div className="grid sm:grid-cols-2 gap-4 mb-4">
                     <div>

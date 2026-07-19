@@ -51,7 +51,7 @@ export default function HashtagFormatter() {
                 </button>
               ))}
             </div>
-            <p className="text-xs text-slate-400 mt-3">Click any hashtag to copy individually.</p>
+            <p className="text-xs text-slate-500 mt-3">Click any hashtag to copy individually.</p>
           </Card>
         )}
 

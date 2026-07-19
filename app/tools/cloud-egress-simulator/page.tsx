@@ -100,7 +100,7 @@ export default function CloudEgressSimulator() {
           <ResultCard gradient>
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 px-6 py-6 rounded-t-2xl">
               <h3 className="text-white font-bold text-lg">Egress Invoice Comparison</h3>
-              <p className="text-slate-400 text-sm mt-1">Exact calculation based on tiered pricing</p>
+              <p className="text-slate-500 text-sm mt-1">Exact calculation based on tiered pricing</p>
             </div>
             
             <div className="bg-white p-4 rounded-b-2xl space-y-4">

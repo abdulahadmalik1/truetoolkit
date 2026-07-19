@@ -117,7 +117,7 @@ export default function WeddingVendorTimeline() {
                       </label>
                     </div>
                     {events.length > 1 && (
-                      <button onClick={() => removeEvent(ev.id)} className="text-slate-400 hover:text-red-500 font-bold px-2">✕</button>
+                      <button onClick={() => removeEvent(ev.id)} className="text-slate-500 hover:text-red-500 font-bold px-2">✕</button>
                     )}
                   </div>
 
@@ -185,7 +185,7 @@ export default function WeddingVendorTimeline() {
                       <div className="text-sm font-mono font-medium text-slate-600 bg-slate-50 px-2 py-1 rounded inline-block border border-slate-200">
                         {formatTime(calc.start)} – {formatTime(calc.end)}
                       </div>
-                      <p className="text-xs text-slate-400 mt-1">Duration: {ev.durationMinutes}m</p>
+                      <p className="text-xs text-slate-500 mt-1">Duration: {ev.durationMinutes}m</p>
                     </div>
                   );
                 })}

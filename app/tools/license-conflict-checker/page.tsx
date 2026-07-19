@@ -109,7 +109,7 @@ export default function LicenseConflictChecker() {
                     <FieldLabel htmlFor={`l-${dep.id}`}>License</FieldLabel>
                     <Select id={`l-${dep.id}`} value={dep.license} onChange={(v) => updateDep(dep.id, 'license', v)} options={DEP_LICENSES} />
                   </div>
-                  <button onClick={() => removeDep(dep.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-400 hover:text-red-500 rounded-xl transition-colors">
+                  <button onClick={() => removeDep(dep.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-500 hover:text-red-500 rounded-xl transition-colors">
                     ✕
                   </button>
                 </div>
@@ -154,7 +154,7 @@ export default function LicenseConflictChecker() {
               ))}
             </div>
           </ResultCard>
-          <div className="text-center text-xs text-slate-400">
+          <div className="text-center text-xs text-slate-500">
             Based on strict Free Software Foundation copyleft definitions. Not legal advice.
           </div>
         </div>

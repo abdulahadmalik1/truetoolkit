@@ -82,7 +82,7 @@ export default function HobbyCostRationalizer() {
             </div>
             
             <div className="px-4 py-6 bg-white rounded-b-2xl border-2 border-t-0 border-slate-200">
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest text-center mb-4">How Does It Compare?</h4>
+              <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest text-center mb-4">How Does It Compare?</h4>
               
               <div className="space-y-3 font-mono text-sm">
                 <div className="flex justify-between items-center p-2 rounded bg-slate-50 border border-slate-100">
@@ -91,15 +91,15 @@ export default function HobbyCostRationalizer() {
                 </div>
                 <div className="flex justify-between items-center p-2 rounded">
                   <span className="text-slate-500 font-sans">Movie Ticket ($15 / 2 hrs)</span>
-                  <span className="text-slate-400">$7.50/hr</span>
+                  <span className="text-slate-500">$7.50/hr</span>
                 </div>
                 <div className="flex justify-between items-center p-2 rounded bg-slate-50 border border-slate-100">
                   <span className="text-slate-500 font-sans">Average Bar Night ($50 / 3 hrs)</span>
-                  <span className="text-slate-400">$16.66/hr</span>
+                  <span className="text-slate-500">$16.66/hr</span>
                 </div>
                 <div className="flex justify-between items-center p-2 rounded">
                   <span className="text-slate-500 font-sans">Nice Dinner ($100 / 2 hrs)</span>
-                  <span className="text-slate-400">$50.00/hr</span>
+                  <span className="text-slate-500">$50.00/hr</span>
                 </div>
               </div>
             </div>

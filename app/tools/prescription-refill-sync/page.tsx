@@ -68,7 +68,7 @@ export default function PrescriptionRefillSync() {
               {meds.map((med, idx) => (
                 <div key={med.id} className="p-4 bg-slate-50 border border-slate-200 rounded-xl relative group">
                   {meds.length > 1 && (
-                    <button onClick={() => removeMed(med.id)} className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center text-slate-400 hover:text-red-500 rounded-full hover:bg-red-50 transition-colors">
+                    <button onClick={() => removeMed(med.id)} className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center text-slate-500 hover:text-red-500 rounded-full hover:bg-red-50 transition-colors">
                       ✕
                     </button>
                   )}

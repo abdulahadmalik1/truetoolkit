@@ -130,7 +130,7 @@ export default function ScopeCreepLedger() {
                     <NumInput id={`h-${log.id}`} value={log.hours} onChange={(v) => updateLog(log.id, 'hours', v)} min={0.25} step={0.25} />
                     
                     {logs.length > 1 && (
-                      <button onClick={() => removeLog(log.id)} className="absolute -right-1 -top-6 text-slate-400 hover:text-red-500 text-lg font-bold px-1">
+                      <button onClick={() => removeLog(log.id)} className="absolute -right-1 -top-6 text-slate-500 hover:text-red-500 text-lg font-bold px-1">
                         ✕
                       </button>
                     )}

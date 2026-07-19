@@ -114,7 +114,7 @@ export default function FarmYieldLedger() {
                     <NumInput id={`amt-${item.id}`} value={item.amount} onChange={(v) => updateCost(item.id, 'amount', v)} min={0} />
                   </div>
                   {costs.length > 1 && (
-                    <button onClick={() => removeCost(item.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-400 hover:text-red-500 rounded-xl transition-colors">
+                    <button onClick={() => removeCost(item.id)} className="w-10 h-[42px] mb-[2px] flex items-center justify-center bg-white border border-slate-200 text-slate-500 hover:text-red-500 rounded-xl transition-colors">
                       ✕
                     </button>
                   )}

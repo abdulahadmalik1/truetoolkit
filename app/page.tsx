@@ -80,7 +80,7 @@ export default function Home() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder={`Search ${tools.length} tools…`}
             aria-label="Search tools"
-            className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-base text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent shadow-sm transition-all"
+            className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-base text-slate-900 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent shadow-sm transition-all"
           />
           <nav aria-label="Jump to category" className="flex flex-wrap gap-2">
             {categories.map((cat) => {
@@ -181,7 +181,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-slate-200 mt-12">
-        <div className="max-w-5xl mx-auto px-4 py-8 text-center text-xs text-slate-400">
+        <div className="max-w-5xl mx-auto px-4 py-8 text-center text-xs text-slate-500">
           TrueToolkit.com — All {tools.length} tools run entirely in your
           browser. Zero data collection.
         </div>
