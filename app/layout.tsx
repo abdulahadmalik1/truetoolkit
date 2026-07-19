@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import { Suspense } from "react";
+import fs from "fs";
+import path from "path";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://truetoolkit.com'),
@@ -28,9 +30,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const cssPath = path.join(process.cwd(), "public", "tailwind-compiled.css");
+  let cssString = "";
+  try {
+    cssString = fs.readFileSync(cssPath, "utf8");
+  } catch (e) {
+    console.error("Failed to read compiled CSS");
+  }
+
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <style dangerouslySetInnerHTML={{ __html: cssString }} />
       </head>
       <body className="min-h-screen antialiased">
         {children}
